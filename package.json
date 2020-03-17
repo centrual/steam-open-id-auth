@@ -1,0 +1,22 @@
+{
+  "name": "steam_open_id_auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "del-cli dist && tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "openid": "^2.0.6",
+    "ts-error": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/node": "^13.9.1",
+    "@types/openid": "^2.0.1",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.1",
+    "typescript": "^3.8.3"
+  }
+}
