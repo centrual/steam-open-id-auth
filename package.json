@@ -1,10 +1,10 @@
 {
-  "name": "steam_open_id_auth",
+  "name": "steam-open-id-auth",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "description": "Steam Open Id Authorization",
-  "repository": "https://github.com/centrual/steam_open_id_auth.git",
+  "repository": "https://github.com/centrual/steam-open-id-auth.git",
   "keywords": [
     "steam",
     "auth"
