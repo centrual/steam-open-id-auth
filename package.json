@@ -17,7 +17,7 @@
   "scripts": {
     "build": "del-cli dist && tsc",
     "test": "jest",
-    "prepub": "del-cli dist && tsc && copyfiles package.json README.md LICENSE .gitignore .npmignore dist"
+    "prepub": "del-cli dist && tsc && copyfiles package.json README.md LICENSE .gitignore .npmignore dist && jest"
   },
   "dependencies": {
     "openid": "^2.0.6",
